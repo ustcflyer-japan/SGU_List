@@ -1285,17 +1285,25 @@ pre[class*="language-"] {
     color: #2E4D4D;            /* 悬停时颜色为暗绿色 */
 }
 
-        .content {
+.content {
 	    margin-left: 250px; /* 与侧边栏宽度+间距相匹配 */
             padding: 0 50px;
         }
-    </style>
-<style>
-        ul {
+.content ul {
             list-style-type: none; /* 去掉无序列表前面的点 */
             padding-left: 0; /* 去掉默认的缩进 */
         }
+.content ul li a {
+    text-decoration: none;     /* 去掉下划线 */
+    color: #000000;               /* 链接文字颜色 */
+}
+
+.content ul li a:hover {
+    color: #2E4D4D;            /* 悬停时颜色为暗绿色 */
+}
+
     </style>
+
 </head>
 <body>
  <div class="sidebar">
